@@ -42,3 +42,33 @@ const heroes = ["Shaktiman", "NaagRaj", "Doga"]
  console.log(typeof bigNumber);
  console.log(typeof outSideTemperature);
  console.log(typeof heroes);
+
+
+
+
+
+ //   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack (Primitive), Heap (non-Primitive)
+
+ let myYoutubeName = "Abhi2003"
+
+ let anotherName = myYoutubeName
+ anotherName = "Shyam Prasad"
+
+ console.log(anotherName);
+ console.log(myYoutubeName);
+
+ let user = {
+   email : "user@google.com",
+   UPI : "user@ybl"
+ }
+
+ let user2 = user
+
+  user2.email = "abhi2003@google.com"
+
+  console.log(user.email);
+  console.log(user2.email);
+  
+ 
